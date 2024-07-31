@@ -25,6 +25,13 @@ const useGetMenuItems = () => {
         // t('layout.menuItems.dashboard')
         i18nKey: 'layout.menuItems.dashboard',
         icon: 'dashboard'
+      },
+      {
+        href: routes.connectPolygon.path,
+        // Translation key: do not remove this comment
+        // t('layout.menuItems.dashboard')
+        i18nKey: 'layout.menuItems.connectPolygon',
+        icon: 'dashboard'
       }
     ]
 

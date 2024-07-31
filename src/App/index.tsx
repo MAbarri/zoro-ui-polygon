@@ -39,17 +39,23 @@ const wallets = [injected, trust, coinbase, walletConnect, ledger, trezor]
 
 const chains = [
   {
-    id: '0x118',
-    token: 'ETH',
-    label: 'zkSync Era Testnet RPC',
-    rpcUrl: `https://testnet.era.zksync.dev`
-  },
-  {
-    id: '0x144',
-    token: 'ETH',
-    label: 'zkSync Era Mainnet',
-    rpcUrl: `https://mainnet.era.zksync.io `
+    id: '0x89', // Chain ID for Polygon Mainnet
+    token: 'MATIC', // Native token for Polygon
+    label: 'Polygon Mainnet',
+    rpcUrl: 'https://polygon-rpc.com/' // RPC URL for Polygon
   }
+  // {
+  //   id: '0x118',
+  //   token: 'ETH',
+  //   label: 'zkSync Era Testnet RPC',
+  //   rpcUrl: `https://testnet.era.zksync.dev`
+  // },
+  // {
+  //   id: '0x144',
+  //   token: 'ETH',
+  //   label: 'zkSync Era Mainnet',
+  //   rpcUrl: `https://mainnet.era.zksync.io `
+  // }
 ]
 
 const web3Onboard = init({

@@ -305,7 +305,8 @@
       "xvs": "XVS",
       "gitbook": "Docs",
       "discord": "Discord",
-      "substack": "Substack"
+      "substack": "Substack",
+      "connectPolygon": "Connect to Polygon"
     }
   },
   "lunaUstWarningModal": {

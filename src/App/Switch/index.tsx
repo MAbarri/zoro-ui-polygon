@@ -6,6 +6,7 @@ import Dashboard from "pages/Dashboard";
 import Market from "pages/Market";
 import NotFound from "pages/NotFound";
 import Pool from "pages/Pool";
+import Polygon from "pages/Polygon";
 import React, { useEffect } from "react";
 import {
   Switch as RRSwitch,
@@ -41,6 +42,7 @@ const Switch = () => {
       <Route exact path={routes.account.path} component={Account} />
 
       <Route exact path={routes.market.path} component={Market} />
+      <Route exact path={routes.connectPolygon.path} component={Polygon} />
 
       {!isFeatureEnabled("isolatedPools") && (
         <Route exact path={routes.markets.path} component={Pool} />

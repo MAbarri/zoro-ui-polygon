@@ -9,6 +9,7 @@ export enum Subdirectory {
   MARKETS = '/markets/:poolComptrollerAddress',
   MARKET = '/market/:vTokenAddress',
   NOTFOUND = '/404',
+  POLYGONCONNECT = '/connectPolygon',
   //HISTORY = '/history',
   //VAULTS = '/vaults',
   //GOVERNANCE = '/governance',
@@ -23,6 +24,7 @@ export enum Subdirectory {
 const routeSubdirectories = {
   dashboard: [Subdirectory.DASHBOARD],
   account: [Subdirectory.ACCOUNT],
+  connectPolygon: [Subdirectory.POLYGONCONNECT],
   //xvs: [Subdirectory.XVS],
   //pools: [Subdirectory.POOLS],
   //pool: [Subdirectory.POOLS, Subdirectory.POOL],
